@@ -1,0 +1,113 @@
+body{
+text-align: center;
+    margin: 0;
+    padding-top: 800px;
+    
+}
+#welcome{
+    position: absolute;
+    height: 800px;
+    color: red;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    opacity: 0.83;
+    background: linear-gradient(#03e3fc 0%, #03fc28 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+}
+#bio{
+    padding: 50px;
+    text-align: center;
+    font-size:30px;
+    }
+.profile{
+width: 200px;
+margin-bottom: 50px;
+border-radius: 50%;
+    }
+.menu{
+    list-style: none;
+    position: fixed;
+    margin-top: 0px;
+    top: 0px;
+    cursor: pointer;
+    z-index: 10;
+    background: forestgreen;
+    width: 100%;
+    }
+.links{
+    float: left;
+    color: azure;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 33px;
+    padding-right: 25px;
+   font-family: 'Akronim', cursive;
+    font-size: 20px;
+    display:inline;
+    text-align: center;
+    
+    
+}
+.parallax-inner{
+    display:table-cell;
+position: relative;
+text-align: center;
+vertical-align: middle;
+}
+.links:hover{
+    background-color: #324ea8;
+    text-decoration: underline;
+    font-size: 30px;
+        
+}
+p{
+    max-width: 450px;
+    margin: 25px auto;
+    font-size: 18px;
+    font-family: 'Indie Flower', cursive;
+
+}
+.line{
+height: 6px;
+    background-color: darkgoldenrod;
+    width: 70px;
+    margin: 8px auto;
+}
+a{
+    text-decoration: none;
+    color: firebrick;
+    text-shadow: 2px 2px gainsboro;
+}      
+.article:hover{
+    color: cornflowerblue;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+#contact{
+    background-color: chartreuse;
+}
+
+#contact iframe{
+    width: 100%;
+}
+
+
+.contact_1 h3{
+    display: inline;
+}
+.contact_1 a{
+    color: deepskyblue;
+    text-shadow: none;
+}
+#books a{
+    text-shadow: none !important;
+    text-decoration: underline !important;
+    color: darkturquoise !important;
+}
